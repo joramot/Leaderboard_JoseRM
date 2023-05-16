@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^9.1.2",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.27.5",
@@ -24,5 +27,8 @@
     "stylelint-scss": "^3.21.0",
     "webpack": "^5.82.1",
     "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.3"
   }
 }
