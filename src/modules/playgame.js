@@ -15,7 +15,7 @@ const playGame = () => {
     });
   };
 
-  const addScores = async () => {
+  const addScores = () => {
     const data = {
       user: name.value,
       score: score.value,
