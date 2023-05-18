@@ -2,9 +2,8 @@
   "name": "leaderboard_joserm",
   "version": "1.0.0",
   "description": "<a name=\"readme-top\"></a>",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
-    "dev": "webpack --mode development",
     "build": "webpack",
     "start": "webpack serve --open"
   },
@@ -12,10 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.21.5",
-    "@babel/core": "^7.21.8",
     "babel-eslint": "^10.1.0",
-    "babel-loader": "^9.1.2",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.27.5",

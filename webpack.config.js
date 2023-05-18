@@ -20,19 +20,15 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
+  optimization: {
+    runtimeChunk: 'single',
+  },
 
   module: {
     rules: [
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
-      },
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-        },
       },
       {
         test: /\.(png|jpe?g|gif)$/i,
@@ -47,9 +43,5 @@ module.exports = {
         ],
       },
     ],
-  },
-
-  optimization: {
-    runtimeChunk: 'single',
   },
 };
