@@ -65,7 +65,18 @@ After you're finished please remove all the comments and instructions!
 
 ## 🛠 Built With <a name="Visual Studio Code"></a>
 
-### Tech Stack <a name="Viual Studio Code"></a>
+### Tech Stack <a name="Tech Stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+  <li><a href="https:///">HTML & CSS</a></li>
+  <li><a href="https:///">Javascript</a></li>
+  <li><a href="https:///">ES6</a></li>
+  <li><a href="https:///">Webpack</a></li>
+  <li><a href="https:///">API</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
