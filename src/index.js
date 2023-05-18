@@ -1,6 +1,4 @@
 import './style.css';
+import playGame from './modules/playgame.js';
 
-const addScore = document.getElementById('#addScore');
-addScore.addEventListener('clic  ', (e) => {
-  e.preventDefault();
-});
+playGame();
