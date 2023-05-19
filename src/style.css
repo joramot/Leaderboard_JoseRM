@@ -97,7 +97,7 @@ li {
   padding: 1rem;
   width: 30%;
   opacity: 0.9;
-  height: fit-content;
+  height: auto;
 }
 
 .add_score p {
