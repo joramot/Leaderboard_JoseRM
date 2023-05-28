@@ -31,16 +31,11 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'img/',
-            },
-          },
-        ],
+        test: /\.(gif|png|jpe?g)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'images/[name]-[hash][ext]',
+        },
       },
     ],
   },

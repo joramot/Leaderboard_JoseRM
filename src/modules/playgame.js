@@ -11,7 +11,7 @@ const playGame = () => {
     const scores = await getGameScore();
     listScore.innerHTML = '';
     scores.forEach((score) => {
-      listScore.innerHTML += `<li>${score.user}: ${score.score}</li>`;
+      listScore.innerHTML += `<li>${score.user}: <span></span> ${score.score}</li>`;
     });
   };
 
